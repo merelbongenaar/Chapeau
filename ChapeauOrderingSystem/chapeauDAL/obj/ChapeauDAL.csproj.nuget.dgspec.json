@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj": {}
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj": {
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj",
         "projectName": "ChapeauDAL",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\ChapeauDAL.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",

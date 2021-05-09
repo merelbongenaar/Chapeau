@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj": {}
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj": {
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj",
         "projectName": "ChapeauLogic",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\ChapeauLogic.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\chapeauLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",

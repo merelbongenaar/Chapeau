@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj": {}
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj": {
+    "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj",
         "projectName": "ChapeauModel",
-        "projectPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj",
+        "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Source\\Repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gebruiker\\AppData\\Roaming\\NuGet\\NuGet.Config",
