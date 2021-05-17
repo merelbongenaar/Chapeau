@@ -260,6 +260,20 @@
             "rid": "win"
           }
         }
+      },
+      "ChapeauModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "5.0.0",
+          "System.Data.SqlClient": "4.8.2"
+        },
+        "compile": {
+          "bin/placeholder/ChapeauModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChapeauModel.dll": {}
+        }
       }
     }
   },
@@ -994,10 +1008,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "ChapeauModel/1.0.0": {
+      "type": "project",
+      "path": "../ChapeauModel/ChapeauModel.csproj",
+      "msbuildProject": "../ChapeauModel/ChapeauModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "ChapeauModel >= 1.0.0",
       "NETStandard.Library >= 2.0.3",
       "System.Configuration.ConfigurationManager >= 5.0.0",
       "System.Data.SqlClient >= 4.8.2"
@@ -1029,7 +1049,11 @@
       "frameworks": {
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj": {
+              "projectPath": "C:\\Users\\Gebruiker\\source\\repos\\merelbongenaar\\Chapeau\\ChapeauOrderingSystem\\ChapeauModel\\ChapeauModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

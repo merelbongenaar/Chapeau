@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ChapeauLogic;
+using ChapeauModel;
 
 namespace ChapeauUI
 {
@@ -15,6 +17,41 @@ namespace ChapeauUI
         public Login()
         {
             InitializeComponent();
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text;
+            string password = txtPassword.Text;
+
+            Employee employee = new Employee();
+            EmployeeService employeeService = new EmployeeService();
+
+            employee = employeeService.GetEmployee(username, password);
+
+            if (employee != null && employee.Role == "w") 
+            {
+                TableOverview tableOverview = new TableOverview(employee);
+                this.Hide();
+
+                tableOverview.ShowDialog();
+            }
+
+            else if (employee != null && employee.Role == "k")
+            {
+                //show kitchenview
+            }
+
+            else if (employee != null && employee.Role == "b")
+            {
+                //show barview
+            }
+
+            else
+            {
+                MessageBox.Show("Incorrect username or password!");
+            }
+
         }
     }
 }
