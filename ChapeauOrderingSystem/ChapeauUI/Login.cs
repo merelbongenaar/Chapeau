@@ -29,24 +29,21 @@ namespace ChapeauUI
 
             employee = employeeService.GetEmployee(username, password);
 
-            if (employee != null && employee.Role == "w") 
+            if (employee != null)
             {
-                TableOverview tableOverview = new TableOverview(employee);
-                this.Hide();
+                if (employee.Role == "w")
+                {
+                    TableOverview tableOverview = new TableOverview(employee);
+                    this.Hide();
 
-                tableOverview.ShowDialog();
+                    tableOverview.ShowDialog();
+                }
+
+                else if (employee.Role == "k" || employee.Role == "b")
+                {
+                    //open new form ruben and pass employee object
+                }
             }
-
-            else if (employee != null && employee.Role == "k")
-            {
-                //show kitchenview
-            }
-
-            else if (employee != null && employee.Role == "b")
-            {
-                //show barview
-            }
-
             else
             {
                 MessageBox.Show("Incorrect username or password!");
