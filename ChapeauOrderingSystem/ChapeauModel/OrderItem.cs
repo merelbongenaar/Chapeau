@@ -9,12 +9,14 @@ namespace ChapeauModel
 
     public enum State
     {
-        NotStarted, Preparing, Done
+        NotStarted=1, Preparing, Done
     }
 
     public class OrderItem
     {
-        public int ItemID { get; set; }
+        public Item Item { get; set; }
+
+        //public int ItemID { get; set; }
 
         public int OrderID { get; set; }
 

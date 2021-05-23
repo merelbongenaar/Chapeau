@@ -4,7 +4,8 @@ using System.Text;
 
 namespace ChapeauDAL
 {
-    public class OrderItemDao
+    public class OrderItemDao : BaseDao
     {
+
     }
 }
