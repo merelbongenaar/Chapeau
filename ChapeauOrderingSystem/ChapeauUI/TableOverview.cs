@@ -27,9 +27,13 @@ namespace ChapeauUI
             btnPayForOrder.Hide();
         }
 
+        //----------------------------------------------------------------------------------TABLE BUTTONS-----------------------------------------------------------------------------------------------------------
         private void btnTable1_Click(object sender, EventArgs e)
         {
+            lblTableNR.Text = "Table 1";
+
             TableService tableService = new TableService();
+            OrderService orderService = new OrderService();
 
             if (btnTable1.BackColor == Color.PaleTurquoise)
             {
@@ -49,7 +53,7 @@ namespace ChapeauUI
             {
                 btnAddItem.Show();
                 btnPayForOrder.Show();
-                lblTableNR.Text = "Table 1";
+                
 
                 //now table name should show up on the right and also a + sign that will link to the order part
                 //maybe also and unoccupy bttn and update state back to unoccupied
@@ -58,16 +62,75 @@ namespace ChapeauUI
 
             else if (btnTable1.BackColor == Color.Yellow)
             {
+                listViewOrderTableOverview.Items.Clear();
 
+                Order order = new Order();
+                order = orderService.GetOrderByTableNR(1);
+
+                foreach (OrderItem orderItem in order.orderedItems)
+                {
+                    ListViewItem li = new ListViewItem(orderItem.Item.ItemName);
+                    li.SubItems.Add(orderItem.Quantity.ToString());
+
+                    listViewOrderTableOverview.Items.Add(li);
+                }
             }
 
         }
 
+        private void btnTable2_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void btnTable3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bntTable8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable9_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnTable10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        //-------------------------------------------------------------------BUTTON ADD ITEM--------------------------------------------------------------------------------------------------------------------------
         private void btnAddItem_Click(object sender, EventArgs e)
         {
             //open new form yeraz
         }
 
+        //-------------------------------------------------------------------BUTTON PAY FOR ORDER---------------------------------------------------------------------------------------------------------------------
         private void btnPayForOrder_Click(object sender, EventArgs e)
         {
             //open new form mohammed
@@ -76,7 +139,7 @@ namespace ChapeauUI
 
 
 
-        //---------------------------------------------------------------i dont knwo what this is---------------------------------------------------------------------------------
+        //---------------------------------------------------------------i dont knwo what this is---------------------------------------------------------------------------------------------------------------------
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             //List<Table> tables = new List<Table>();
@@ -124,22 +187,9 @@ namespace ChapeauUI
         }
 
 
-
         private void listViewOrderTableOverview_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
-
-
-
-
-        //DialogResult dialogResult = MessageBox.Show("Occupie table", "Some Title", MessageBoxButtons.YesNo);
-        //get order table 1
-        //new orderservice 
-        //Order order = orderservice.GetOrderByTablenr
-
-        //foreach Orderitem item in order.ordereditems
-        //listviewitem li = new listviewitem(item.Name);
-        //li.SubItems.Add(item.Quantity.ToString());
     }
 }

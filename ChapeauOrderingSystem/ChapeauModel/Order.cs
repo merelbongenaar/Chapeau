@@ -6,6 +6,7 @@ namespace ChapeauModel
     public class Order
     {
         //Class Order can contain a list of OrderItem-objects(and a Table instead of TableId, and a Employee instead of EmployeeId)
+       
         
         public List<OrderItem> orderedItems { get; set; }
 
@@ -16,5 +17,10 @@ namespace ChapeauModel
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public decimal Bill { get; set; }
+
+        public Order()
+        {
+            orderedItems = new List<OrderItem>();
+        }
     }
 }
